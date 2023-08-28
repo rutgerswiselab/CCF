@@ -15,43 +15,28 @@ from utils.global_p import *
 
 # # import data_loaders
 from data_loaders.DataLoader import DataLoader
-from data_loaders.ProLogicDL import ProLogicDL
 
 # # import models
 from models.BaseModel import BaseModel
 from models.RecModel import RecModel
-from models.BiasedMF import BiasedMF
-from models.NCF import NCF
+from models.MF import MF
 from models.GRU4Rec import GRU4Rec
-from models.STAMP import STAMP
-from models.NLR import NLR
-from models.NLRRec import NLRRec
 
 from CCFmodels.CCFGRU4Rec import CCFGRU4Rec
-from CCFmodels.CCFSTAMP import CCFSTAMP
-from CCFmodels.CCFBiasedMF import CCFBiasedMF
-from CCFmodels.CCFNCF import CCFNCF
-from CCFmodels.CCFNLRRec import CCFNLRRec
+from CCFmodels.CCFMF import CCFMF
 
 from CCFmodels.ConCCFGRU4Rec import ConCCFGRU4Rec
-from CCFmodels.ConCCFSTAMP import ConCCFSTAMP
-from CCFmodels.ConCCFBiasedMF import ConCCFBiasedMF
-from CCFmodels.ConCCFNLRRec import ConCCFNLRRec
-from CCFmodels.ConCCFNCF import ConCCFNCF
+from CCFmodels.ConCCFMF import ConCCFMF
 
 # # import data processors
 from data_processors.DataProcessor import DataProcessor
 from data_processors.HistoryDP import HistoryDP
-from data_processors.ProLogicDP import ProLogicDP
-from data_processors.ProLogicRecDP import ProLogicRecDP
-from data_processors.RNNLogicDP import RNNLogicDP
 from data_processors.CTFGenerator import CounterfactualGenerator
 from data_processors.nonSeqCTFGenerator import nonSeqCTFGenerator
 from data_processors.ProLogicCTFGenerator import ProLogicCTFGenerator
 
 # # import runners
 from runners.BaseRunner import BaseRunner
-from runners.ProLogicRunner import ProLogicRunner
 from runners.DiscreteCTFRunner import DiscreteCTFRunner
 from runners.ContinuousCTFRunner import ContinuousCTFRunner
 
