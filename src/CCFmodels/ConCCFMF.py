@@ -11,7 +11,7 @@ import numpy as np
 import pdb
 
 
-class ConCCFBiasedMF(RecModel):
+class ConCCFMF(RecModel):
     data_processor = 'DataProcessor'  # default data_processor
     runner = 'ContinuousCTFRunner'
     
