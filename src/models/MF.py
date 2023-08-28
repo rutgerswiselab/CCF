@@ -8,7 +8,7 @@ from utils.global_p import *
 
 
 
-class BiasedMF(RecModel):
+class MF(RecModel):
     def _init_weights(self):
         self.uid_embeddings = torch.nn.Embedding(self.user_num, self.ui_vector_size)
         self.iid_embeddings = torch.nn.Embedding(self.item_num, self.ui_vector_size)
