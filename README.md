@@ -1,4 +1,4 @@
-# CCF
+# Causal Collaborative Filtering
 
 ## Introduction
 This repository includes the implementation for Causal Collaborative Filtering
